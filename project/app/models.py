@@ -13,7 +13,7 @@ class Project(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
     
-    # Other project fields...
+    # Other project fields...  
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
